@@ -1,0 +1,71 @@
+*{
+    margin: 20;
+    padding: 0;
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    float: none;
+    border: 2px solid black;
+    height: 500px;
+    width: 100%;
+}
+
+.startdiv{
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: burlywood;
+    height: 500px;
+    width: 50%;
+}
+
+.startdiv>form{
+    margin-top: 20%;
+
+}
+
+
+.scrollBlock {
+    height: 400px;
+    width:fit-content; 
+    margin: auto;
+    margin-top: 10%;
+}
+  
+  .scrollBlock {
+    scrollbar-color: black;
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    overflow-y: auto;
+ 
+  }
+
+
+
+
+.enddiv{
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(243, 205, 158);
+ 
+  height: 500px;
+  width: 50%;
+
+}
+
+
+table, th, td{
+    border: 2px solid black;
+   
+}
+
+th, td{
+    padding: 10px;
+}
+
